@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Frontend Mentor--Stats preview Card</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    </head>
+    <body>
+        <main>
+            <div class="card-stats">    
+                <div class="card-stats__info">
+                    <h1 class="card-stats__title">Get <span class="highlight">insights</span> that help your business grow.</h1>
+                    <p class="card-stats__description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+                    <div class="card-stats__statbox">
+                        <div class="card-stats__stats">
+                            <p class="stats_title">10k+</p>
+                            <p class="stats_description">companies</p>
+                        </div>
+                        <div class="card-stats__stats">
+                            <p class="stats_title">314</p>
+                            <p class="stats_description">templates</p>
+                        </div>
+                        <div class="card-stats__stats">
+                            <p class="stats_title">12M+</p>
+                            <p class="stats_description">queries</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <picture class="card-stats__image">
+                    <source srcset="images/image-header-mobile.jpg" media="(max-width:1034px)">
+                    <img src="images/image-header-desktop.jpg" alt="Data analysts sitting in a table">
+                </picture>
+            </div>
+        </main>
+    </body>
+</html>
